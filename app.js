@@ -10,10 +10,10 @@ app.use("/api/user", router) ;
 
 app.use("/api/blog",blogRouter);
 
-mongoose.connect("mongodb+srv://yashparmarr:WN3HwB1HS2eJDDW7@cluster0.m3kgtdd.mongodb.net/social?retryWrites=true&w=majority"
+mongoose.connect("mongodb+srv://username:<password>@cluster0.m3kgtdd.mongodb.net/social?retryWrites=true&w=majority"
    ).then(() => app.listen(3000))
    .then(() =>
         console.log("Connected to Database and listening to port number 3000")
     ).catch((err) => console.log(err));
-    
+//yashparmarr //32454432
 // WN3HwB1HS2eJDDW7
